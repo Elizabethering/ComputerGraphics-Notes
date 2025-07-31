@@ -7,7 +7,7 @@
 
 ## 📖 仓库简介
 
-你好，我是 Elizabethering。本仓库是我学习**计算机图形学 (Computer Graphics)** 的个人空间。
+你好，我是 Elizabethering！本仓库是我学习**计算机图形学 (Computer Graphics)** 的个人空间。
 
 学习图形学需要坚实的理论基础和大量的编码实践。因此，本仓库将整合来自国内顶尖大学的理论课程和国际上广受欢迎的实践教程，旨在构建一个全面而深入的知识体系。
 
@@ -15,7 +15,7 @@
 
 我的学习方法是“理论指导实践，实践深化理论”。
 * 以**中国科学技术大学《计算机图形学》课程**为主线，学习核心理论、渲染管线和数学基础。
-* 同步跟随 **learnopengl.com** 和 **B站优秀OpenGL教程**，将理论知识转化为实际的、可运行的 OpenGL 代码，用实践来检验和巩固所学。
+* 为了全方位地锻炼编码能力，我将综合运用多个优秀的实践教程，包括 **LearnOpenGL**、**OpenGL-Tutorial.org** 和 **B站优秀OpenGL教程**。通过对比它们不同的实现风格和讲解侧重，来加深对图形学概念和工程实践的理解。
 
 ## 📚 学习资源
 
@@ -23,13 +23,10 @@
     * **课程:** [2020年中国科学技术大学《计算机图形学》本科课程（刘利刚）](https://www.bilibili.com/video/BV1iT4y1o7oM/)
     * **产出:** 课程核心概念的笔记，存放于 `USTC_CG_Notes` 目录。
 
-2.  **实践主线 (Practical Mainline):**
-    * **网站:** [LearnOpenGL](https://learnopengl.com/) (被誉为OpenGL的现代入门圣经)
-    * **产出:** 网站每章节的完整代码实现，存放于 `LearnOpenGL_Code` 目录。
-
-3.  **实践补充 (Practical Supplement):**
-    * **课程:** [【最好的OpenGL教程之一】](https://www.bilibili.com/video/BV1MJ411u7Bc/)
-    * **产出:** 跟随视频敲写的示例代码，存放于 `Bilibili_OpenGL_Code` 目录。
+2.  **实践编码 (Practical Coding):**
+    * **网站 (主线):** [LearnOpenGL](https://learnopengl.com/) - 被誉为OpenGL的现代入门圣经，内容详尽。
+    * **网站 (补充):** [OpenGL Tutorial](https://www.opengl-tutorial.org/) - 经典的OpenGL教程网站，注重项目实践。我计划完成其基础和中级教程。
+    * **视频 (补充):** [【最好的OpenGL教程之一】](https://www.bilibili.com/video/BV1MJ411u7Bc/) - 通过视频跟学，直观感受编码过程。
 
 ## 🗂️ 仓库结构
 
@@ -41,8 +38,10 @@ ComputerGraphics-Notes/
 │   └── ...
 ├── LearnOpenGL_Code/               # learnopengl.com 网站的同步代码实现
 │   ├── 1_Getting_Started/
-│   ├── 2_Lighting/
 │   └── ...
+├── OpenGL_Tutorial_Org_Code/       # opengl-tutorial.org 网站的同步代码实现
+│   ├── basic_tutorials/
+│   └── intermediate_tutorials/
 ├── Bilibili_OpenGL_Code/           # B站OpenGL教程的同步代码实现
 │   └── ...
 ├── Libs/                             # 第三方库 (GLAD, GLFW, GLM, etc.)
@@ -92,6 +91,7 @@ ComputerGraphics-Notes/
 
 * **刘利刚教授** 及 **中国科学技术大学** 提供的精彩公开课。
 * **Joey de Vries** 创建了内容详实、对初学者极其友好的 [learnopengl.com](https://learnopengl.com/)。
+* **opengl-tutorial.org 的创建者们** 提供的经典实践教程。
 * **Bilibili 平台**及相关教程的创作者，让学习资源触手可及。
 
 ## 📄 许可 (License)
